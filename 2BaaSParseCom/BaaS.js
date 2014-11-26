@@ -64,7 +64,7 @@
 		
 		function townsLoaded(data)
 		{
-			$.getScript("Towns.js");
+			$.getScript("https://raw.githubusercontent.com/petkata/JsApps/master/2BaaSParseCom/Towns.js");
 			
 		}
 		
