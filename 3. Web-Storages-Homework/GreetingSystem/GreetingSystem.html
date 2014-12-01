@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="addNameScript.js"></script>
+	<script src="clearLocalStorageScript.js"></script>
+	<script src="clearSessionStorageScript.js"></script>
+	<script src="incrementSessionCounterScript.js"></script>
+	<script src="incrementTotalCounterScript.js"></script>
+	<title>Greeting System</title>
+</head>
+<body>
+	
+	<div>
+		<div id="greeting"></div>
+		<input id="name" type="text" placeholder="Insert name" />
+		<button id="put-btn">Put in local storage</button>
+		<button id="clear-localStorage">Clear local storage</button>
+		<button id="clear-sessionStorage">Clear session storage</button>
+	</div>
+	<div id="result">
+	</div>
+	<div id="sessionCountDiv">Session visits: </div>
+	<div id="totalCountDiv">Total visits: </div>
+</body>
+</html>
